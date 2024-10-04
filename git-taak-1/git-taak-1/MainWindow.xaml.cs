@@ -63,22 +63,24 @@ namespace git_taak_1
 
         private void rood_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            colorcodeTextBox.Text = "#FF0000";
         }
 
         private void geel_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            colorcodeTextBox.Text = "#FFFF00";
         }
 
         private void groen_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            colorcodeTextBox.Text = "#008000";
         }
 
         private void blauw_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            colorcodeTextBox.Text = "#0000FF";
         }
+
+        
     }
 }
