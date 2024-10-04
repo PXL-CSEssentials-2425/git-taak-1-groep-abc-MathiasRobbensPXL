@@ -20,5 +20,65 @@ namespace git_taak_1
         {
             InitializeComponent();
         }
+
+        private void rood_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Red;
+        }
+
+        private void geel_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Yellow;
+        }
+
+        private void groen_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Green;
+        }
+
+        private void blauw_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Blue;
+        }
+
+        private void rood_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void geel_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void groen_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void blauw_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void rood_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void geel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void groen_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void blauw_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

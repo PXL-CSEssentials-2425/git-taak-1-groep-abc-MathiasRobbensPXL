@@ -9,6 +9,10 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="66,40,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="671,40,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image Name="rood" HorizontalAlignment="Left" Height="93" Margin="138,124,0,0" VerticalAlignment="Top" Width="124" Source="/Rood.png" MouseEnter="rood_MouseEnter" MouseLeave="rood_MouseLeave" MouseDown="rood_MouseDown"/>
+        <Image Name="geel" HorizontalAlignment="Left" Height="82" Margin="378,124,0,0" VerticalAlignment="Top" Width="122" Source="/Geel.png" MouseEnter="geel_MouseEnter" MouseLeave="geel_MouseLeave" MouseDown="geel_MouseDown"/>
+        <Image Name="groen" HorizontalAlignment="Left" Height="87" Margin="138,217,0,0" VerticalAlignment="Top" Width="124" Source="/Groen.png" MouseEnter="groen_MouseEnter" MouseLeave="groen_MouseLeave" MouseDown="groen_MouseDown"/>
+        <Image Name="blauw" HorizontalAlignment="Left" Height="90" Margin="378,217,0,0" VerticalAlignment="Top" Width="120" Source="/Blauw.png" MouseEnter="blauw_MouseEnter" MouseLeave="blauw_MouseLeave" MouseDown="blauw_MouseDown"/>
 
     </Grid>
 </Window>
